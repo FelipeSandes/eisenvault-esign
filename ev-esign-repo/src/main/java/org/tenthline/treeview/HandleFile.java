@@ -161,7 +161,7 @@ public HandleFile() {}
         String firstName = nodeService.getProperty(personRef, ContentModel.PROP_FIRSTNAME).toString();
         String lastName = nodeService.getProperty(personRef, ContentModel.PROP_LASTNAME).toString();
         Date date = new Date();
-        String signInfoLabel = "Signed by "+firstName+" "+lastName+" on "+dateFormat.format(date);
+        String signInfoLabel = "Assinado por "+firstName+" "+lastName+" àss "+dateFormat.format(date);
         BaseFont bf = BaseFont.createFont();
         content.beginText();
         content.setTextRenderingMode(PdfContentByte.TEXT_RENDER_MODE_FILL_STROKE);
@@ -237,7 +237,7 @@ public HandleFile() {}
           tempDir.delete();
         }
       }
-      res.getWriter().write("File has been generated sucecessfully.");
+      res.getWriter().write("Novo arquivo gerado com sucessos");
     }
     catch (ParseException e)
     {

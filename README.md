@@ -9,6 +9,15 @@ Assinatura Eletrônica EisenVault para documentos PDF
 
 É importante lembrar que a assinatura eletrônica não tem válidade legal em território brasileiro. A mesma pode ser usada para tramites internos dentro das organizações.
 
+# Versões
+
+Testado no:
+
+Alfresco 5.2 - Funcionando
+Alfresco 6.0 - Funcionando
+Alfresco 6.2 - Funcionando
+
+
 # eisenvault-esign
 EisenVault E-Signature for PDF Documents
 ##Steps to sign your PDF documents
