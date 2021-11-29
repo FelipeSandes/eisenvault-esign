@@ -1,5 +1,16 @@
 # eisenvault-esign
 Assinatura Eletrônica EisenVault para documentos PDF
+
+## Instalação
+
+Para fazer a instalação usando o AMP.
+
+Coloque os arquivos Amp em sua pasta Alfresco amps / amps-share
+Execute o script: bin / apply_amps. [Sh | bat] com a opção -force.
+
+$_java -jar $ALF_HOME/bin/alfresco-mmt.jar install $ALF_HOME/amps_share $CATALINA_HOME/webapps/share.war -force -directory $*
+
+
 ## Passos para assinar seus documentos PDF
 1. Adicione sua imagem de assinatura em seu perfil usando "Meu Perfil".
 2. Abra o documento PDF em detalhes e use a ação "Adicionar assinatura eletrônica" para assiná-lo.
@@ -11,7 +22,7 @@ Assinatura Eletrônica EisenVault para documentos PDF
 
 # Versões
 
-Testado no:
+Testado:
 
 Alfresco 5.2 - Funcionando
 Alfresco 6.0 - Funcionando
